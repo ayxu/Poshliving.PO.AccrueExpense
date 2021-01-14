@@ -1,5 +1,21 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)">
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Poshliving.CustomizeAPI.Properties" GeneratedClassName="Settings">
   <Profiles />
-  <Settings />
+  <Settings>
+    <Setting Name="DBName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AIS20190516233807</Value>
+    </Setting>
+    <Setting Name="FSTOCKORGID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10006</Value>
+    </Setting>
+    <Setting Name="FOWNERID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">10006</Value>
+    </Setting>
+    <Setting Name="FACCTGRANGEID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">113933</Value>
+    </Setting>
+    <Setting Name="FOwnerTypeId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">BD_OwnerOrg</Value>
+    </Setting>
+  </Settings>
 </SettingsFile>

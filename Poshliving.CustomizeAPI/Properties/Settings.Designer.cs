@@ -22,5 +22,50 @@ namespace Poshliving.CustomizeAPI.Properties {
                 return defaultInstance;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("AIS20190516233807")]
+        public string DBName {
+            get {
+                return ((string)(this["DBName"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10006")]
+        public string FSTOCKORGID {
+            get {
+                return ((string)(this["FSTOCKORGID"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("10006")]
+        public string FOWNERID {
+            get {
+                return ((string)(this["FOWNERID"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("113933")]
+        public string FACCTGRANGEID {
+            get {
+                return ((string)(this["FACCTGRANGEID"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("BD_OwnerOrg")]
+        public string FOwnerTypeId {
+            get {
+                return ((string)(this["FOwnerTypeId"]));
+            }
+        }
     }
 }

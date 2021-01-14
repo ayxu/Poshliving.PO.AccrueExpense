@@ -33,6 +33,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Kingdee.BOS.ServiceFacade.KDServiceFx, Version=7.3.1219.3, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Kingdee.BOS.WebApi.ServicesStub, Version=7.3.1219.3, Culture=neutral, PublicKeyToken=null" />
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
